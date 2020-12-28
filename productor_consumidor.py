@@ -17,7 +17,7 @@ class MiThread(threading.Thread):
         threading.Thread.__init__(self)
         self.evento = evento
 
-    @sincronized(my_lock)
+    @sincronized()
     def run(self):
         print(self.getName(), "esperando al evento")
         self.evento.wait()
