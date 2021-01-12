@@ -1,11 +1,12 @@
+#! python3.9
 """Documentacion del modulo
 Esta es una antacion la cual debe de encontrarse
 en la parte superior de nuestro script
 Esta anotacion tiene como objetivo describir el modulo"""
 
-__author__ = "Yo"
+__author__ = "me"
 __copyright__ = "Copyright 2020"
-__credits__ = ["Me", "You", "he"]
+__credits__ = ["Me", "You", "he", "she"]
 __license__ = "GPL"
 __version__ = "0.0.1"
 __maintainer__ = "Team Capitan America"
@@ -14,7 +15,6 @@ __status__ = "Production"
 
 
 CONSTANT = "I'm a constant"
-
 full_name = "Josue Canaviri"
 
 print(CONSTANT)
